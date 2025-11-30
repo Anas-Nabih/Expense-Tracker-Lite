@@ -294,10 +294,7 @@ flutter test --coverage
 ### Add Expense
 ![Add Expense](screenshots/add_expense.png)
 *Add expense form with currency conversion and receipt attachment*
-
-### Expense List
-![Expense List](screenshots/expense_list.png)
-*Paginated expense list with filtering options*
+ 
 
 ## ⚖️ Trade-offs & Assumptions
 

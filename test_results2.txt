@@ -1,0 +1,28 @@
+﻿00:00 +0: loading C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/data/repositories/expense_repository_impl_test.dart
+00:00 +0: C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/data/repositories/expense_repository_impl_test.dart: (setUpAll)
+00:00 +0: C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/data/repositories/expense_repository_impl_test.dart: getExpenses should return list of expenses when call to local data source is successful
+00:00 +0 -1: C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/data/repositories/expense_repository_impl_test.dart: getExpenses should return list of expenses when call to local data source is successful [E]
+  Expected: Right<Failure, List<ExpenseEntity>>:<Right([ExpenseEntity(1, Test, 100.0, USD, USD, 100.0, 2025-11-30 03:11:42.353253, Food, null)])>
+    Actual: Right<Failure, List<ExpenseEntity>>:<Right([ExpenseEntity(1, Test, 100.0, USD, USD, 100.0, 2025-11-30 03:11:42.353253, Food, null)])>
+  
+  package:matcher                                                                 expect
+  package:flutter_test/src/widget_tester.dart 474:18                              expect
+  test\features\expense\data\repositories\expense_repository_impl_test.dart 62:7  main.<fn>.<fn>
+  
+00:00 +0 -1: C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/data/repositories/expense_repository_impl_test.dart: getExpenses should return CacheFailure when call to local data source is unsuccessful
+00:00 +1 -1: C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/data/repositories/expense_repository_impl_test.dart: addExpense should return void when call to local data source is successful
+00:00 +2 -1: C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/data/repositories/expense_repository_impl_test.dart: getExchangeRate should return exchange rate when call to remote data source is successful
+00:00 +3 -1: C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/data/repositories/expense_repository_impl_test.dart: getExchangeRate should return ServerFailure when call to remote data source is unsuccessful
+00:00 +4 -1: C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/data/repositories/expense_repository_impl_test.dart: (tearDownAll)
+00:02 +4 -1: C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/domain/usecases/get_paginated_expenses_test.dart: should get expenses from the repository
+00:07 +5 -1: C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/presentation/bloc/add_expense_bloc_test.dart: (setUpAll)
+00:07 +5 -1: C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/presentation/bloc/add_expense_bloc_test.dart: AddExpenseBloc initial state should be AddExpenseState()
+00:07 +6 -1: C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/presentation/bloc/add_expense_bloc_test.dart: AddExpenseBloc LoadExchangeRateEvent emits [loading, rateExchangedLoaded, loading, success] when exchange rate is loaded and expense is submitted
+00:07 +7 -1: C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/presentation/bloc/add_expense_bloc_test.dart: (tearDownAll)
+00:11 +7 -1: C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/presentation/bloc/expense_bloc_test.dart: initial state should be ExpenseState()
+00:11 +8 -1: C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/presentation/bloc/expense_bloc_test.dart: emits [loading, success] when data is gotten successfully
+00:11 +9 -1: C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/presentation/bloc/expense_bloc_test.dart: emits [loading, failure] when getting data fails
+00:11 +10 -1: C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/presentation/bloc/expense_bloc_test.dart: emits [success] with appended expenses when LoadMoreExpenses is added
+00:25 +11 -1: C:/Users/ascom/StudioProjects/expense_tracker_lite/test/features/expense/presentation/pages/add_expense_page_test.dart: AddExpensePage renders correctly
+unhandled element <style/>; Picture key: Svg loader
+00:29 +12 -1: Some tests failed.
